@@ -1,0 +1,19 @@
+.tableWrapper {
+    display: grid;
+    width: 1000px;
+    margin: 10px auto;
+    justify-content: left;
+    grid-template-rows: max-content 50px;
+    row-gap: 20px;
+    position: relative;
+
+}
+
+.optionControl {
+    display: grid;
+    grid-template-columns: minmax(50px, max-content) 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+}

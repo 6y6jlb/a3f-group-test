@@ -1,0 +1,51 @@
+.table {
+    background-color: lightgrey;
+    display: grid;
+    justify-content: center;
+    align-items: baseline;
+    row-gap: 10px;
+
+}
+
+.item {
+    padding: 0 30px;
+    border-radius: 2px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 50px;
+    align-items: center;
+    height: 70px;
+    background-color: #fff;
+
+
+}
+
+.img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.textBlock {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    width: max-content;
+}
+
+.title {
+    font-weight: bold;
+    display: block;
+
+}
+
+.url {
+    display: block;
+    color: slategrey;
+
+}
+
+.url:hover {
+    color: #3f3f4e;
+}

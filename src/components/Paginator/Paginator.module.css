@@ -1,0 +1,40 @@
+.pages {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15px, max-content));
+    align-items: center;
+    column-gap: 10px;
+    height: 30px;
+    color: #492F7E;
+    font-size: 1.6em;
+}
+
+.activeNumber {
+    padding: 0 4px;
+    font-weight: bold;
+    background-color: #3e2471;
+    color: white;
+    border: 1px solid #3e2471;
+    border-radius: 2px;
+    transition: all 0.7s;
+
+}
+
+.activeNumber:hover {
+    border-radius: 50%;
+    transition: all 0.7s;
+    color: #b2afb6;
+}
+
+.normalNumber {
+    padding: 0 2px;
+    background-color: white;
+    border: 1px solid transparent;
+    transition: all 0.5ms;
+}
+
+.normalNumber:hover {
+    background-color: #a988e8;
+    border-radius: 45%;
+    transition: all 0.7s;
+}

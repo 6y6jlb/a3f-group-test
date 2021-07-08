@@ -1,0 +1,17 @@
+.mappedItems {
+    color: #9e85d0;
+}
+
+.select {
+    color: #492F7E;
+}
+option:checked {
+    background: #492F7E linear-gradient(#492F7E, #492F7E);
+    color: #9e85d0;
+}
+
+option:hover {
+    background: #492F7E linear-gradient(#492F7E, #492F7E);
+    color: #9e85d0;
+}
+
